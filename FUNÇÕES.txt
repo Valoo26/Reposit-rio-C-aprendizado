@@ -1,0 +1,58 @@
+FUNÇÕES
+
+Em linguagem C e também em muitas outras linguagens nós podemos separar uma 
+pequena parte do nosso código em uma ou mais funções diferentes da função principal
+(main).
+	uma função definida pelo programador(nós) deve ter um nome, um tipo de 
+retorno e pode conter parâmetros.
+	Exemplo de função para mostrar o resultado da soma de 1 até um limite 
+solicitado pelo usuário.
+
+
+   tipo de             Nome da              parâmetros
+  retorno              função
+
+    int                  somar              (int fim)  {
+
+int pos, res=0;
+for(pos =1; pos<=fim; pos ++){
+	res = res+pos;
+}
+
+return res;
+}
+
+
+***** PROGRAMA QUE USA A FUNÇÃO SOMAR(): ******
+
+#include< stdio.h > 
+
+int somar(int fim);
+
+int main(void){
+
+	int soma;
+	soma = soma(10);
+	printf("Resultado: %d \n", soma);
+	return 0;
+}
+
+
+__________________________________________________
+
+As funções definidas pelo usuário são tão poderosas que podem até chamar elas mesmas.
+Chamamos isso de " RECURSIVIDADE".
+
+EXEMPLO USANDO A FUNÇÃO SOMA:
+int somar(int fim){
+	if(fim <= 1 ) { // condição de PARADA
+	  return fim;
+	}
+	return(fim+somar(fim -1));// reduz dimensão do problema
+	
+}
+
+É vital para um código recursivo que ele atenda 2 requisitos :
+ 1ª) condição de parada.
+ 2ª) reduzir a dimensão do problema buscando uma situação desejada também chamada
+de " caso base"

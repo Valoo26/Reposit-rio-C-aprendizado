@@ -1,0 +1,17 @@
+Pseudo código para Homem lobo cabra e alface
+
+Exercício 04:  apresente um algoritimo que resolva o problema do
+agricultor que necessita atravessar o riocom o lobo a cabra e o alface.
+
+*só pode atravessar um por vez no barco.
+** lado A  rio Lado B
+
+
+- cabra lado B.
+- volta sozinho para o A.
+-pega o alface e vai para o B.
+-leva a cabra para o A.
+-leva o lobo para o B.
+- vai sozinho para o A.
+- pega a cabra e leva para o B
+

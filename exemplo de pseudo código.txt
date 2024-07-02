@@ -1,0 +1,38 @@
+Comer uma maça
+Voçe esta estudando programação lendo um livro de C,
+ deitado no sofá da sala no meio da tarde, voçe se lembra que sua mãe
+deixou maças lavadas dentro da geladeira na cozinha.
+ Escreva o algoritmo para comer uma maça e voltar a estudar.
+
+- ler o livro
+- marcar a pagina do livro
+-fechar o livro
+- posicionar o livro no sofá 
+- me posicionar na posição sentado no sofá
+- localizar o chinelo
+- calçar os chinelos
+- me levantar 
+- ir em direção á cozinha
+- ir em direção a geladeira
+- abrir a geladeira
+- verificar se possui maçã na gaveta de frutas
+-abrir gaveta de frutas
+-pegar uma maçã
+-ir em direção a pia
+-lavar a maçã
+-secar a maçã
+- comer a maçã
+- ir em direção ao lixo
+-abrir o lixo
+- descartar a sobra
+- fechar o lixo
+- caminhar até a sala
+-localizar o sofá
+- ir em direção ao sofá
+- sentar no sofá
+- retirar o chinelo
+- pegar o livro com a mão esquerda
+- deitar me
+- abrir o livro na página marcada 
+- continuar estudando.
+32- aprender o conteúdo do livro.

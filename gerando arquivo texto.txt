@@ -1,0 +1,42 @@
+****  Ler e escrever em arquivo do tipo texto ****
+
+FILE - para acessar um arquivo precisamos de um tipo especial de variável que é criado 
+com o FILE. Com ele vamos definir o nome das variáveis para ler e gravar em arquivos.
+EXEMPLOS: FILE arq;
+
+As principais operações com arquivpo de texto são:
+
+FOPEN () - usada para abrir um arquivo
+FCLOSE() - usada para fechar um arquivo
+FPUTS() - usada para gravar um arquivo
+FGETS() - usada para ler uma linha
+FEOF() - verifica se chegou no fim do arquivo.
+FOPEN() - precisa definir a forma que o arquivo será aberto.
+
+R -  abre o arquivo apenas para leitura (READ)
+W -  abre o arquivo apenas para escrita (WRITE)
+A - Abre arquivopara adicionar no final(ADD)
+
+#include<stdio.h>
+#include<stdlib.h>
+#define TAMANHO 1000
+
+int main(void){
+
+	FILE *arq3;
+	char linha [TAMANHO];
+	if(arq3 = fopen("entrada.txt", "r")== null){
+		print("ERROR \n");
+		exit(1);
+	}
+	while(!feof(arq3)){
+	if(fgets(linha, TAMANHO, arq3)){
+	printf("%s", linha);
+	}
+	}
+	fclose(arq3);
+	}
+	return 0;
+}
+
+	

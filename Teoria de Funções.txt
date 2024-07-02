@@ -1,0 +1,16 @@
+****** Funções =  subrotinas =  subprogramas
+
+A função deve ter um nome e um tipo - se a função não tiver tipo ela
+obrigatoriamente será do tipo inteira.
+a função pode ter parametros.
+
+
+tipo     nome      parâmetros
+int      soma      (int pri, int seg){
+
+
+	int res;
+	res = pri + seg;
+	return res;
+
+	}
